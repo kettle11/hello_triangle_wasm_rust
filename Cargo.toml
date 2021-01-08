@@ -1,0 +1,11 @@
+[package]
+name = "hello_triangle_wasm_rust"
+version = "0.1.0"
+authors = ["Ian Kettlewell <ian.kettlewell@gmail.com>"]
+edition = "2018"
+license = "CC0"
+
+[dependencies]
+
+[lib]
+crate-type = ["cdylib"]
